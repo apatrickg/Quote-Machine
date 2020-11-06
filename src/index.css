@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  background-image: url('./images/adrian-Xft-JdC-Jbc-unsplash.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body, html{
+  width: 100%;
+  height: 100%;
+}
+
+#quote-box{
+  color: white;
+  width:610px;
+  height: 310px;
+  background: 	#A9A9A9;
+  border-radius: 10px;
+  padding: 20px;
+  border: solid #e0c56e 10px;
+  box-shadow: 4px 8px #909090;
+}
+
+
+#opening{
+  padding-bottom: 10px;
+  border-bottom: solid #686868 5px;
+  border-radius: 5px;
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+
+}
+#text{
+  font-size: 1.2em;
+  width: 100%;
+}
+
+#author{
+  margin-bottom: 30px;
+  font-size: 0.9em;
+  text-align: right;
+}
+
+#new-quote{
+  float: right;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 4px goldenrod;
+}
+
+#tweet-quote{
+  box-shadow: 2px 4px goldenrod;
+}
+
+
+@media screen and (max-width: 700px) {
+    #quote-box{   
+    height: 350px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #text{   
+  width:100%;
+  font-size: 1.1em;
+}
+}
